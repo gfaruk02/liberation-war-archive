@@ -1,0 +1,36 @@
+.carousel-item img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+}
+
+.navbar-nav .nav-link {
+    transition: 0.3s;
+}
+
+/* Active menu */
+.navbar-nav .nav-link.active {
+    color: #03333f !important;
+    font-weight: bold;
+}
+
+/* Hover */
+.navbar-nav .nav-link:hover {
+    color: #094270;
+    font-weight: bold;
+}
+
+
+
+.form-button {
+    border: 1px solid #115263 !important;
+    color: #115263 !important;
+    transition: 0.3s;
+}
+
+.form-button:hover {
+    background-color: #0b4c96 !important;
+    border-color: #0b4c96 !important;
+    color: white;
+    font-weight: bold;
+}
